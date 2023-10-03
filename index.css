@@ -1,0 +1,81 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: "Rubik", sans-serif;
+  color: #432000;
+  user-select: none;
+}
+
+.container {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+
+.moolang-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+input,
+button,
+ul li {
+  padding: 0.5em 1em;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5em;
+}
+
+input {
+  background-color: #7b5c48;
+  color: #fdfdfd;
+  margin: 14px 0px;
+}
+
+::placeholder {
+  color: #fdfdfd;
+  opacity: 0.8;
+}
+
+input:focus {
+  outline-color: #a11717;
+}
+
+button {
+  color: #fefefe;
+  background-color: #e64c4c;
+  transition: background-color 0.7s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #a11717;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 10px;
+}
+
+ul li {
+  background-color: #f5dfd7;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  flex-grow: 1;
+  transition: background-color 0.7s ease;
+}
+
+ul li:hover,
+ul li:hover {
+  background-color: #e7b19d;
+}
